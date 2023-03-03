@@ -1,0 +1,8 @@
+#Configurar nombre
+git config --global user.name "Nombre"
+
+#Configurar correo
+git config --global user.email "nombre@bbva.com"
+
+#Configuracion global
+git config --global -e

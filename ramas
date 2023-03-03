@@ -1,0 +1,14 @@
+#Listar ramas
+git branch
+
+#Cambiar de rama
+git checkout rama
+
+#Eliminar branch local
+git branch -D rama
+
+#Eliminar branch remota
+git push origin  --delete rama
+
+#Estatus de la rama
+git status
