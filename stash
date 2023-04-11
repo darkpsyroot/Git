@@ -1,0 +1,8 @@
+#Guardar cambios
+git stash
+
+#Listar stash
+git stash list
+
+#Traer cambios
+git stash pop
