@@ -1,2 +1,17 @@
 #Crear una etiqueta
 git tag name
+
+#listar etiquetas
+git tag
+
+#eliminar etiquetas
+git tag -d name
+
+#tag con mensaje
+git tag -a v1.0.0 -m "version 1.0.0 lista"
+
+#tag con mensaje en un commit especifico
+git tag -a v1.0.0 hash -m "version 1.0.0 lista"
+
+#Mostrar mensaje del tag
+git show nametag
