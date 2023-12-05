@@ -1,0 +1,7 @@
+git config --global alias.ck checkout --short
+git config --global alias.s status --short
+git config --global alias.b branch --short
+
+git branch --set-upstream-to=origin/master CLOUD_207293
+
+git pull origin master
